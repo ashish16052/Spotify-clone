@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1D1D1D;
+    font-family: signika;
+    color:#E1E5EA;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    list-style: none;
+}
+
+nav ul li{
+padding: 0 12px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: signika;
+    color:#E1E5EA;
+}
+
+.logo{
+    width: 40px;
+    padding-left: 12px;
+}
+
+#search{
+    width: 200px;
+    height: 25px;
+    border-style: none;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+
+#search-btn{
+background-color: black;
+margin-right: 20px;
+height: 28px;
+width: 28px;
+border-radius: 8px;
+border-style: none;
+cursor: pointer;
+}
+
+#search-btn img{
+    height: 20px;
+    width: 20px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin: 60px;
+    height: 500px;
+    width: 140vh;
+    border-radius: 20px;
+    background-color: #0e0e0e;
+    display: flex;
+    align-items: center;
+}
+
+.song-list{
+    margin:20px;
+    width: 60vh;
+}
+
+.song-item{
+    border-radius: 20px;
+    background-color: #1D1D1D;
+    height: 45px;
+    width: 60vh;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.time-stamp{
+    margin:0 20px;
+    margin-left: auto;
+}
+
+.album-cover{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+#album{
+    width: 35vh;
+    height: 35vh;
+}
+
+#current-song{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.player{
+margin:0 100px;
+padding-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}   
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 49vh;
+}
+
+.bar{
+    margin-top: 20px;
+    width: 50vh;
+    cursor: pointer;
+}
+
+.icons{
+    margin:10px 10px;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black ;
+    height: 80px; 
+}
+
+.about{
+    display: flex;
+    align-items: center;
+}
+
+.about a{
+    text-decoration: none;
+    color: #E1E5EA;
+}
+
+.socials{
+    font-size: 15px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+

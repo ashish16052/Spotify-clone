@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-marilyn-scott-0.png"
+                    class="logo">
+                <li>
+                    <h1><a href="spotify.html">Spotify</a></h1>
+                </li>
+                <input type="text" id="search" placeholder="Search">
+                <button id="search-btn" onclick="search()"><img
+                        src="https://img.icons8.com/ios-filled/50/26e07f/search--v1.png" /></button>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="container">
+            <div class="song-list">
+                <h2>Your Playlist</h2>
+
+                <div class="song-item" id="1">
+                    <img src="images/Havana.png" class="album-cover">
+                    <div class="song-name">Havana</div>
+                    <div class="time-stamp">03:38</div>
+                </div>
+
+                <div class="song-item" id="2">
+                    <img src="images/Closer.png" class="album-cover">
+                    <div class="song-name">Closer</div>
+                    <div class="time-stamp">04:05</div>
+                </div>
+
+                <div class="song-item" id="3">
+                    <img src="images/Girls like you.png" class="album-cover">
+                    <div class="song-name">Girls like you</div>
+                    <div class="time-stamp">04:30</div>
+                </div>
+
+                <div class="song-item" id="4">
+                    <img src="images/See you again.png" class="album-cover">
+                    <div class="song-name">See you again</div>
+                    <div class="time-stamp">03:57</div>
+                </div>
+
+                <div class="song-item" id="5">
+                    <img src="images/Shape of you.png" class="album-cover">
+                    <div class="song-name">Shape of you</div>
+                    <div class="time-stamp">04:35</div>
+                </div>
+
+                <div class="song-item" id="6">
+                    <img src="images/Sunflower.png" class="album-cover">
+                    <div class="song-name">Sunflower</div>
+                    <div class="time-stamp">02:41</div>
+                </div>
+
+            </div>
+
+            <div class="player">
+                <img src="images/Havana.png" id="album">
+                <div id="current-song">Song name</div>
+                <input type="range" class="bar" min="0" max="10000" id="progressBar" value="0">
+                <div class="time">
+                    <div id="timer">00:00</div>
+                    <div id="song-dur">03:38</div>
+                </div>
+                <div class="icons">
+                    <img src="https://img.icons8.com/ios/50/ffffff/rewind-button-round--v2.png" id="prev">
+                    <img src="https://img.icons8.com/ios/50/ffffff/circled-play--v1.png" id="play" onclick="pause()">
+                    <img src="https://img.icons8.com/ios/50/ffffff/fast-forward-round--v2.png" id="next">
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="about">
+            <a href="#"><div class="socials">Site by Ashish Mohite</div></a>
+            <a href="https://www.linkedin.com/in/ashish-s-mohite/"><div class="socials"><img src="https://img.icons8.com/material-rounded/24/ffffff/linkedin--v1.png" />LinkedIn</div></a>
+            <a href="https://github.com/ashish16052"><div class="socials"><img src="https://img.icons8.com/material-outlined/24/ffffff/github.png" />GitHub</div></a>
+            <a href="https://www.instagram.com/_asheeesh/"><div class="socials"><img src="https://img.icons8.com/material-outlined/24/ffffff/instagram-new--v1.png" />Instagram</div></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
