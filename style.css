@@ -78,6 +78,8 @@ main{
 }
 
 .song-item{
+    position: static;
+    z-index: 2;
     border-radius: 20px;
     background-color: #1D1D1D;
     height: 45px;
@@ -86,8 +88,14 @@ main{
     align-items: center;
     margin: 20px 0;
     font-size: 20px;
+}
+
+.song-name{
     cursor: pointer;
-    z-index: 1;
+}
+
+.song-name:hover{
+    color: #1ED760;
 }
 
 .time-stamp{
@@ -156,11 +164,13 @@ footer{
     color: #E1E5EA;
 }
 
+.about a:hover{
+    color: #1ED760;
+}
+
 .socials{
     font-size: 15px;
     padding: 0 10px;
     display: flex;
     align-items: center;
 }
-
-
